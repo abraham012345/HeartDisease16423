@@ -16,7 +16,7 @@ st.sidebar.header('User Inputs')
 # Gender selection
 gender = st.sidebar.radio('Choose Gender', ('Male', 'Female','Transgender'))
 
-gen = 1 if gender == 'Male' elseif
+gen = 1 if gender == 'Male' else if
 gen = 2 if gender == 'Transgender' else 0
 
 
