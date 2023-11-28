@@ -40,7 +40,7 @@ prevalentHyp = st.sidebar.radio("Prevalent Hypertension", ("Yes", "No"))
 diabetes = st.sidebar.radio("Diabetes", ("Yes", "No"))
 
 # Additional inputs...
-totChol = st.sidebar.slider("Total Cholesterol", min_value=50, max_value=400, value=100, step=1)
+totChol = st.sidebar.slider("Total Cholesterol", min_value=50, max_value=600, value=100, step=1)
 sysBP = st.sidebar.slider("Systolic Blood Pressure", min_value=70, max_value=250, value=120, step=1)
 # Add other inputs similarly
 
