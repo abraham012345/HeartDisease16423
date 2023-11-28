@@ -54,7 +54,7 @@ if st.sidebar.button('Predict'):
     
     # Display prediction result
     st.header('Prediction Result')
-    if output[0] == 0:
+    if output[0] == 1:
         st.write('Patient is Healthy, No Heart Disease')
     else:
         st.write('Patient May have Heart Disease')
